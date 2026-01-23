@@ -187,7 +187,7 @@ setInterval(initializeVisitorCounter, 10);
   });
 
 
-  const name = "spiderkaras";
+  const name = "marklox228";
   let nameText = '';
   let nameIndex = 0;
   let isNameDeleting = false;
@@ -222,15 +222,15 @@ setInterval(initializeVisitorCounter, 10);
 
 
 const bioMessages = [
-    "visit beerlanguage.ru pls",
+    "join my disocrd server pls",
     "Hello World!",
-    "my ip is ........ idk",
+    "radical sucks my dick",
     "my real ip is secret i think",
     "my ip in beerlanguage.ru",
     "do you know that iidk is russian????",
     "if talk fairly idk about iidk",
     "my number is .... also in beerlanguage.ru",
-    "i think you need tap my name in the beerlanguage.ru"
+    "i think you need to tap my name in the beerlanguage.ru"
   ];
   let bioText = '';
   let bioIndex = 0;
@@ -663,6 +663,7 @@ const bioMessages = [
   typeWriterStart();
 
 });
+
 
 
 
