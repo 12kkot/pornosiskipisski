@@ -8,7 +8,7 @@ function initMedia() {
     console.error("Media elements not found");
     return;
   }
-  backgroundMusic.volume = 0.3;
+  backgroundMusic.volume = 0.1;
   backgroundVideo.muted = true; 
 
   
@@ -663,6 +663,7 @@ const bioMessages = [
   typeWriterStart();
 
 });
+
 
 
 
