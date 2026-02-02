@@ -223,9 +223,25 @@ setInterval(initializeVisitorCounter, 10);
 
 const bioMessages = [
     "Hello World!",
-    "my real ip is secret i think",
+    "my ip is 95.24.181.47",
     "do you know that iidk is russian????",
-    "my number is ....",
+    "my number is +7-4912-77-13-42",
+    "skibidi toilet lives in my walls fr fr",
+    "Ohio rizzler spotted in Рязань 💀💀",
+    "fanum tax on your grandma's pelmeni",
+    "gyatt level: бабушка 1000",
+    "mogging the entire Ryazan oblast no cap",
+    "just ate 3kg of shawarma and now i'm sigma",
+    "my aura is so cooked it's giving Chernobyl vibes ☢️",
+    "touching grass? nah i'm touching VPN killswitch",
+    "blud thinks he's русский хакер but it's just NordVPN trial 😭",
+    " ratio + L + your bio is mid + didn't ask + cry about it",
+    "me when i see a cishet in my mentions: 🚬🗿",
+    "ПИЗДЕЦ БЛЯТЬ THIS IS MY FINAL FORM",
+    "only in Ohio you can get doxxed by a dancing cat gif",
+    "i'm not saying i'm batman... but have you ever seen me and batman in the same zoom call?",
+    "42069 ping to freedom™",
+    "your mom's spaghetti but it's actually my location: 54.6291° N, 39.6916° E (iykyk)"
   ];
   let bioText = '';
   let bioIndex = 0;
