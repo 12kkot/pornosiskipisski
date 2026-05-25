@@ -25,7 +25,7 @@
     @keyframes fadeInUp {
       from {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(500px);
       }
       to {
         opacity: 1;
@@ -46,6 +46,50 @@
     /* Agrupe elementos para animação em seções */
     .animation-group {
       margin-bottom: 40px;
+    }
+
+    .title-image {
+        position: fixed;
+        left: 50%;
+        top: 100px;
+        transform: translateX(-50%);
+        max-width: min(90vw, 800px);
+        max-height: 80vh;
+        width: auto;
+        height: auto;
+        z-index: 5;
+        pointer-events: none;
+        object-fit: contain;
+        opacity: 0;
+        transition: top 1s cubic-bezier(0.4, 0, 0.2, 1), opacity 1s ease;
+    }
+
+    .title-image.show {
+        top: 630px;
+        opacity: 1;
+    }
+
+    .title-image.show {
+        transform: translate(-50%, calc(-50% - 500px));
+        opacity: 1;
+    }
+
+    @keyframes titleFadeIn {
+        from {
+            opacity: 0;
+            transform: translate(-50%, calc(-50% - 60px));
+        }
+        to {
+            opacity: 1;
+            transform: translate(-50%, calc(-50% - 500px));
+        }
+    }
+
+    @media (max-width: 768px) {
+        .title-image {
+            max-width: 95vw;
+            max-height: 60vh;
+        }
     }
 
     * {
@@ -103,6 +147,8 @@ a, button, .linkedAccountsRedirect svg, .popup-button {
         </svg>
         <input style="cursor: url('img/Precision Select.cur') !important;" type="range" class="volume-slider" min="0" max="1" step="0.1" value="1">
     </div>
+
+    <img class="title-image" src="img/title.png" alt="">
 
     <div class="content" style="position: fixed; width: 100%; align-items: center; max-width: var(--containerWidth); display: flex; justify-content: center; flex-direction: column; gap: 15px; will-change: transform; transition: 700ms cubic-bezier(0.03, 0.98, 0.52, 0.99); transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
         <div class="container"  style="will-change: transform; transition: 0ms cubic-bezier(0.03, 0.98, 0.52, 0.99); transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
