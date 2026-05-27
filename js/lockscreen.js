@@ -94,14 +94,6 @@ function criarLockscreen() {
           setTimeout(() => {
               lockscreen.remove();
           }, 800);
-          
-          // Показать title.png после исчезновения lockscreen
-          setTimeout(() => {
-              const titleImg = document.querySelector('.title-image');
-              if (titleImg) {
-                  titleImg.classList.add('show');
-              }
-          }, 600);
       }, 500);
   });
 }
